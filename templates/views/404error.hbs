@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    <!-- main-header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="left_header">
+                    <div class="row">
+                        <!-- left side div -->
+                        <div class="col-md-12 col-12 main_header_left align-items-center">
+                            <figure class="errorimg">
+                                <img src="images/404.png" width="250px" alt="404image" class="img-fluid" title="404 Error">
+                            </figure>
+                        
+                            <p>Welcome To The Weather App</p>
+                            <h1>{{errormsg}}</h1>
+                            <a href="/"><button>Go Back</button></a>
+                        </div>
+
+                        <!-- right side div -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    {{>footer}}
+
+    <script src="https://kit.fontawesome.com/38d2d9dd32.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
