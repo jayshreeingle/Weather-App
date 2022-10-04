@@ -17,7 +17,7 @@ app.use(express.static(static_path));
 
 //routing
 app.get("",(req,res)=>{
-    res.render('index')
+    res.render('index.html')
 })
 app.get("/about",(req,res)=>{
     res.render('about')
